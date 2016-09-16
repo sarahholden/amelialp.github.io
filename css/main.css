@@ -27,10 +27,11 @@ h1 a {
     line-height: .75em;
 }
 
-.linkhover {
-    height: 15px;
-    width: 60px;
+nav a:hover {
+/*     height: 15px;
+    width: 60px; */
     background-color: #C2ABD5;
+    transition: all .3s ease-in-out;
 }
 
 .navhr {
@@ -139,6 +140,7 @@ p {
 }
 
 .morte {
+    clear: both;
     width: 25%;
     float:  left;
 }
@@ -161,46 +163,19 @@ p {
 } */
 
 /* hover styles */
-.sigmar:hover {
-    box-shadow: 5px 5px #FF4531;
-    -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);
-    transition: all 5ms ease-in-out;
+.collage1 img,
+.collage2 img {
+    transition: all .5s ease-in-out;
+    box-shadow: 0;
+    -webkit-transform: translateX(0);
+    transform: translateX();
 }
 
-.stanislawa:hover {
+.collage1 img:hover,
+.collage2 img:hover {
     box-shadow: 5px 5px #FF4531;
     -webkit-transform: translateX(-3px);
     transform: translateX(-3px);
-    transition: all 5ms ease-in-out;
-}
-
-.drawing:hover {
-    box-shadow: 5px 5px #FF4531;
-    -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);
-    transition: all 5ms ease-in-out;
-}
-
-.oroboro:hover {
-    box-shadow: 5px 5px #FF4531;
-    -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);
-    transition: all 5ms ease-in-out;
-}
-
-.society:hover {
-    box-shadow: 5px 5px #FF4531;
-    -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);
-    transition: all 5ms ease-in-out;
-}
-
-.scissors:hover {
-    box-shadow: 5px 5px #FF4531;
-    -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);
-    transition: all 5ms ease-in-out;
 }
 
 /* Page 2 Styles */
